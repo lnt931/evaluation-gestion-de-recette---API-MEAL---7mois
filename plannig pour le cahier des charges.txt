@@ -1,0 +1,74 @@
+ATTENTION BIEN LIRE L'ANNONCE ET REPONDRE AUX ATTENTE DU CAHIER DES CHARGES !!!!!!!
+
+Code structuré pour une lecture ou re-lecture facile sans trop à se poser de question lors de la re-lecture chaque jour si y'a une correction à faire.
+Eviter si possible le css pour évité d'avoir trop de fichier en utilisant tailwind sinon méthode css mais le plus simple possible c'est à dire avec le moins de ligne possible.
+Essayer de trouver des recettes sur des sites avec une KEY_API pour des recettes (entrée, plat, dessert) sinon trouver sinon utiliser la méthode HTMl pour relier le tout.
+
+
+IMPORTANT :
+
+RELIRE LE CODE DE LA VEILLE AVANT DE FAIRE DU JOUR SUIVANT !!!!
+
+
+
+
+Jour 1
+
+1 - Analyse de la demande et reflexion de la méthode à adopter.
+2 - Squelette de la structure du code HTML avec Tailwind et Javascript.
+3 - Trouver des sites avec des recettes avec la key_api.
+4 - Intégration de l’API et adapter aux codes + recherche.
+5 - Mise en page pour une utilisation pour l’utilisateur.
+6 - Image sur la recette 
+
+
+Jour 2
+
+1 - Squelette du code de la page admin.
+2 - Relier les 2 pages du code HTML admin et login.
+3 - Tableau pour rajout des recettes.
+4 - Faire le localstorage lors de la saisie de la nouvelle recette.
+5 - Test pour voir si la recette écrit est toujours dans la page quand on se connecte en tant que admin.
+
+
+Jour 3 
+
+1 - Relier la page index à la page login 2 - faire le test.
+3 - faire le GIT pour rendre l’évaluation
+4 - Ne pas oublier de marquer l’évaluation et le groupe API-Meal et la formation 7 mois.
+
+
+Jour 4 
+
+Vérification + Test avant le rendu jeudi 27/06/2024. 
+
+
+
+*essaye de faire la suite.
+
+1 - Notes et Commentaires :
+
+	Permettre aux utilisateurs d'ajouter des notes ou des commentaires à une recette.
+
+	Afficher le nombre de commentaires sur l'aperçu de la recette.
+
+
+2 - Notation :
+
+	Permettre aux utilisateurs de noter une recette (par exemple, de 1 à 5 étoiles).
+
+	Afficher la notation moyenne sur l'aperçu de la recette.
+
+
+3. Favoris :
+
+	Laisser les utilisateurs marquer une recette comme favorite.
+
+	Ajouter une section pour visualiser rapidement toutes les recettes favorites
+
+
+4.Calculateur :
+
+	Créer un calculateur de quantité d’ingrédients selon le nombre de personnes.
+ 
+

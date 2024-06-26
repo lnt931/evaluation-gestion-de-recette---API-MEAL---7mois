@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration des Recettes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <nav class="bg-white shadow-md p-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-blue-600 hover:text-blue-800">Retour au menu</a>
+            <button id="logout-button" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">Déconnexion</button>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+        <h1 class="text-3xl font-bold mb-6">Administration des Recettes</h1>
+        
+        <div id="admin-container">
+            <h2 class="text-2xl font-semibold mb-4">Ajouter une nouvelle recette</h2>
+            <form id="add-recipe-form" class="space-y-4">
+                <input type="text" id="recipe-name" placeholder="Nom de la recette" required class="w-full p-2 border border-gray-300 rounded">
+                <input type="text" id="recipe-image" placeholder="URL de l'image" required class="w-full p-2 border border-gray-300 rounded">
+                <input type="text" id="recipe-time" placeholder="Temps de préparation" required class="w-full p-2 border border-gray-300 rounded">
+                <input type="text" id="recipe-link" placeholder="Lien vers la recette" required class="w-full p-2 border border-gray-300 rounded">
+                <select id="recipe-category" required class="w-full p-2 border border-gray-300 rounded">
+                    <option value="">Choisir une catégorie</option>
+                    <option value="Entrées">Entrées</option>
+                    <option value="Plats">Plats</option>
+                    <option value="Desserts">Desserts</option>
+                </select>
+                <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Ajouter la recette</button>
+            </form>
+            
+            <h2 class="text-2xl font-semibold mt-8 mb-4">Liste des recettes</h2>
+            <ul id="recipe-list" class="space-y-2">
+                <!-- La liste des recettes sera générée ici -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+    <script>
+        document.getElementById('logout-button').addEventListener('click', function() {
+            // Ici, vous pouvez ajouter toute logique de déconnexion nécessaire
+            // Par exemple, effacer les données de session du localStorage
+
+            // Redirection vers la page login.html
+            window.location.href = 'login.html';
+        });
+    </script>
+</body>
+</html>

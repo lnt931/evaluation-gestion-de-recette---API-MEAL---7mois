@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto relative">
+        <button id="admin-login" class="absolute top-0 right-0 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+            Connexion Admin
+        </button>
+        
+        <h1 class="text-3xl font-bold mb-6">Menu du Restaurant</h1>
+        
+        <div class="mb-6">
+            <label for="category-select" class="block mb-2">Choisissez une catégorie :</label>
+            <select id="category-select" class="w-full p-2 border rounded">
+                <option value="">Toutes les catégories</option>
+                <option value="entrees">Entrées</option>
+                <option value="plats">Plats</option>
+                <option value="desserts">Desserts</option>
+            </select>
+        </div>
+
+        <div id="menu-container">
+            <h2 id="category-title" class="text-2xl font-semibold mb-4">Toutes les catégories</h2>
+            <ul id="menu-list" class="grid grid-cols-1 md:grid-cols-2 gap-4"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

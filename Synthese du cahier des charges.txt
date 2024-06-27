@@ -1,0 +1,22 @@
+Synthèse du cahier des charges 
+
+Problèmes rencontrés : 
+
+	- Respecter mon planning défini.
+	- Trouver un site de recettes avec une key_api qui marche correctement sans avoir de bugue.
+	- Mise en page agréable à voir pour l'utilisateur
+	- Adapter les images et l'emplacement sur la page principale (index.html)
+
+Problème non résolu : 
+
+	- Stocker la nouvelle recette dans la liste des recettes dans la page administrateur et la faire apparaitre sur la page principale.
+
+Tâches non-réalisées :
+
+	- Permettre aux utilisateurs d'ajouter des notes ou des commentaires à une recette.
+	- Afficher le nombre de commentaires sur l'aperçu de la recette.
+ 	- Permettre aux utilisateurs de noter une recette (par exemple, de 1 à 5 étoiles).
+	- Afficher la notation moyenne sur l'aperçu de la recette.
+	- Laisser les utilisateurs marquer une recette comme favorite.
+	- Ajouter une section pour visualiser rapidement toutes les recettes favorites.
+	- Créer un calculateur de quantité d’ingrédients selon le nombre de personnes.

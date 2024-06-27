@@ -1,0 +1,78 @@
+ATTENTION BIEN LIRE L'ANNONCE ET REPONDRE AUX ATTENTE DU CAHIER DES CHARGES !!!!!!!
+
+Code structuré pour une lecture ou re-lecture facile pour corrigé éventuellement des corrections à faire.
+Eviter si possible le css pour évité d'avoir trop de fichier en utilisant tailwind sinon méthode css mais le plus simple possible c'est à dire avec le moins de ligne possible.
+Faire un code court le plus optimal possible.
+Essayer de trouver des recettes sur des sites avec une KEY_API pour des recettes (entrée, plat, dessert) sinon trouver sinon utiliser la méthode HTMl pour relier le tout.
+
+
+IMPORTANT :
+
+RELIRE LE CODE DE LA VEILLE AVANT DE FAIRE DU JOUR SUIVANT !!!!
+
+
+
+Jour 1
+
+1 - Analyse de la demande et reflexion de la méthode à adopter.
+2 - Squelette de la structure du code HTML avec Tailwind et Javascript.
+3 - Trouver des sites avec des recettes avec la key_api.
+4 - Intégration de la key_api et adapter aux codes + recherche de la recette qui fonctionne.
+5 - Mise en page pour une utilisation facile pour l’utilisateur.
+6 - Rélier l'index.html (apercu de la page utilisateur) au code (script.js)
+7 - Struturer les images.
+
+
+Jour 2
+1 - Squelette du code de la page admin.
+2 - Relier les 2 pages du code admin et login c'est-à-dire (admin.html/admin.js) et (login.html/login.js)
+3 - Stocker l'email et le mot de passe pour se connecter.
+4 - Tableau pour rajouter des recettes.
+5 - Faire le localstorage lors de la saisie de la nouvelle recette.
+6 - Test pour voir si la recette écrite est toujours dans la page quand on se connecte en tant que admin.
+
+
+Jour 3 
+
+1 - Relier la page utilisateur (index.html/index.js) à la page login (login.html/login.js) - faire le test.
+2 - Relier la page login (login.html/login.js) à la page administrateur (admin.html/admin.js)
+3 - Relier dans l'ordre c'est-à-dire la page utilisateur qui donne sur la page de connexion puis la page administrateur.
+4 - faire le GIT pour rendre l’évaluation
+5 - Ne pas oublier de marquer l’évaluation et le groupe API-Meal et la formation 7 mois.
+
+
+Jour 4 
+
+Vérification s'il y a possiblité de reduire le code + Test avant le rendu jeudi 27/06/2024. 
+
+
+
+Si possible faire en jour 4 : 
+
+
+1 - Notes et Commentaires :
+
+	Permettre aux utilisateurs d'ajouter des notes ou des commentaires à une recette.
+
+	Afficher le nombre de commentaires sur l'aperçu de la recette.
+
+
+2 - Notation :
+
+	Permettre aux utilisateurs de noter une recette (par exemple, de 1 à 5 étoiles).
+
+	Afficher la notation moyenne sur l'aperçu de la recette.
+
+
+3. Favoris :
+
+	Laisser les utilisateurs marquer une recette comme favorite.
+
+	Ajouter une section pour visualiser rapidement toutes les recettes favorites
+
+
+4.Calculateur :
+
+	Créer un calculateur de quantité d’ingrédients selon le nombre de personnes.
+ 
+
